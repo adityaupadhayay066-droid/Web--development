@@ -52,6 +52,8 @@ let  Car = {
     Price:25000,
     access: function(){
         console.log("Brand of a car is : "+this.Brand);
+        console.log("Model of car is : "+this.Model);
+        console.log("Price of car is : "+this.Price);
 
     }
 };
